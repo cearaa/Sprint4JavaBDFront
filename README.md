@@ -18,7 +18,7 @@ Nesta Sprint, a aplicação virou uma **API Restful em Spring Boot**. Ela usa ba
 | **Documentação final (PDF)** | https://github.com/cearaa/Sprint4JavaBDFront/blob/main/documentacao_soulhunter_sprint4.pdf |
 | **Código-fonte Java (.zip)** | [Sprint4JavaBDFront.zip](Sprint4JavaBDFront.zip) |
 | Código-fonte Java (pastas) | [src/main/java/br/com/fiap](src/main/java/br/com/fiap) |
-| Código do front-end (React) | [front-end](front-end) |
+
 
 ### 🌐 Por que o front-end também está hospedado
 
