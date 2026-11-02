@@ -14,9 +14,19 @@ Nesta Sprint, a aplicação virou uma **API Restful em Spring Boot**. Ela usa ba
 |---|---|
 | **Deploy da API (Render)** | https://soulhunter-rm571411.onrender.com |
 | Exemplo de consulta | https://soulhunter-rm571411.onrender.com/soulhunter/usuarios |
-| **Documentação final (PDF)** | [documentacao_soulhunter_sprint4.pdf](documentacao_soulhunter_sprint4.pdf) |
-| Código-fonte Java | [src/main/java/br/com/fiap](src/main/java/br/com/fiap) |
-| Front-end (React) | [front-end](front-end) |
+| **Front-end publicado (Vercel)** | https://soulhunter-front.vercel.app |
+| **Documentação final (PDF)** | https://github.com/cearaa/Sprint4JavaBDFront/blob/main/documentacao/documentacao_soulhunter_sprint4.pdf |
+| **Código-fonte Java (.zip)** | [Sprint4JavaBDFront.zip](Sprint4JavaBDFront.zip) |
+| Código-fonte Java (pastas) | [src/main/java/br/com/fiap](src/main/java/br/com/fiap) |
+| Código do front-end (React) | [front-end](front-end) |
+
+### 🌐 Por que o front-end também está hospedado
+
+O enunciado pede o deploy da API. Mesmo assim, o grupo também publicou o **front-end na Vercel** para **facilitar a correção**:
+
+- **Basta abrir o link.** Não é preciso instalar o Node.js nem rodar `npm install` e `npm start`.
+- **Mostra a integração funcionando.** O front publicado já consome a API do Render, então dá para ver o sistema completo (cadastro, reciclagem, transporte e fantasmas) direto no navegador.
+- **O código continua no repositório.** A pasta [`front-end`](front-end) tem o projeto React, para quem quiser rodar no computador (veja a seção "Como rodar o front-end").
 
 > ⏳ **Atenção:** no plano gratuito do Render, a API "dorme" depois de um tempo sem uso. A **primeira requisição pode levar cerca de 1 minuto**. Depois disso, as respostas são rápidas.
 
@@ -56,6 +66,7 @@ Sprint4JavaBDFront/
 │   └── SoulHunterApplication.java
 ├── front-end/       → aplicação React que consome a API
 ├── documentacao/    → documentação final em PDF
+├── Sprint4JavaBDFront.zip → pasta do projeto Java compactada
 ├── Dockerfile       → usado no deploy do Render
 └── pom.xml
 ```
