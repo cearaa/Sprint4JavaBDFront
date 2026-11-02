@@ -16,7 +16,6 @@ Nesta Sprint, a aplicação virou uma **API Restful em Spring Boot**. Ela usa ba
 | Exemplo de consulta | https://soulhunter-rm571411.onrender.com/soulhunter/usuarios |
 | **Front-end publicado (Vercel)** | https://soulhunter-front.vercel.app |
 | **Documentação final (PDF)** | https://github.com/cearaa/Sprint4JavaBDFront/blob/main/documentacao_soulhunter_sprint4.pdf |
-| **Código-fonte Java (.zip)** | [Sprint4JavaBDFront.zip](Sprint4JavaBDFront.zip) |
 | Código-fonte Java (pastas) | [src/main/java/br/com/fiap](src/main/java/br/com/fiap) |
 
 
