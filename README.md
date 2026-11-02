@@ -25,8 +25,6 @@ O enunciado pede o deploy da API. Mesmo assim, o grupo também publicou o **fron
 
 - **Basta abrir o link.** Não é preciso instalar o Node.js nem rodar `npm install` e `npm start`.
 - **Mostra a integração funcionando.** O front publicado já consome a API do Render, então dá para ver o sistema completo (cadastro, reciclagem, transporte e fantasmas) direto no navegador.
-- **O código continua no repositório.** A pasta [`front-end`](front-end) tem o projeto React, para quem quiser rodar no computador (veja a seção "Como rodar o front-end").
-
 > ⏳ **Atenção:** no plano gratuito do Render, a API "dorme" depois de um tempo sem uso. A **primeira requisição pode levar cerca de 1 minuto**. Depois disso, as respostas são rápidas.
 
 ---
@@ -185,23 +183,5 @@ DB_URL=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL;DB_USER=seu_usuario;DB_PAS
 4. **Rode** a classe `br.com.fiap.SoulHunterApplication`. Quando aparecer `Started SoulHunterApplication`, acesse http://localhost:8080/soulhunter/usuarios. Com o banco vazio, a resposta é `[]`.
 
 ---
-
-## 💻 Como rodar o front-end
-
-1. Instale o **Node.js 18 ou superior**.
-2. Abra a pasta `front-end` no terminal e rode:
-
-```bash
-npm install
-npm start
-```
-
-3. Abra http://localhost:3000 no navegador.
-
-O front já está apontando para a API do Render. Para usar a API local, troque a constante `API_URL` em `front-end/src/api.js` por `http://localhost:8080/soulhunter`.
-
----
-
-## ☁️ Deploy
 
 A API é publicada no **Render** como Web Service, usando o `Dockerfile` do projeto. As variáveis `DB_URL`, `DB_USER` e `DB_PASSWORD` ficam cadastradas no próprio Render, em **Environment Variables**.
