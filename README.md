@@ -14,7 +14,7 @@ Nesta Sprint, a aplicação virou uma **API Restful em Spring Boot**. Ela usa ba
 |---|---|
 | **Deploy da API (Render)** | https://soulhunter-rm571411.onrender.com |
 | Exemplo de consulta | https://soulhunter-rm571411.onrender.com/soulhunter/usuarios |
-| **Documentação final (PDF)** | [documentacao/documentacao_soulhunter_sprint4.pdf](documentacao/documentacao_soulhunter_sprint4.pdf) |
+| **Documentação final (PDF)** | [documentacao_soulhunter_sprint4.pdf](documentacao_soulhunter_sprint4.pdf) |
 | Código-fonte Java | [src/main/java/br/com/fiap](src/main/java/br/com/fiap) |
 | Front-end (React) | [front-end](front-end) |
 
