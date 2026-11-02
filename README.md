@@ -15,7 +15,7 @@ Nesta Sprint, a aplicação virou uma **API Restful em Spring Boot**. Ela usa ba
 | **Deploy da API (Render)** | https://soulhunter-rm571411.onrender.com |
 | Exemplo de consulta | https://soulhunter-rm571411.onrender.com/soulhunter/usuarios |
 | **Front-end publicado (Vercel)** | https://soulhunter-front.vercel.app |
-| **Documentação final (PDF)** | https://github.com/cearaa/Sprint4JavaBDFront/blob/main/documentacao/documentacao_soulhunter_sprint4.pdf |
+| **Documentação final (PDF)** | https://github.com/cearaa/Sprint4JavaBDFront/blob/main/documentacao_soulhunter_sprint4.pdf |
 | **Código-fonte Java (.zip)** | [Sprint4JavaBDFront.zip](Sprint4JavaBDFront.zip) |
 | Código-fonte Java (pastas) | [src/main/java/br/com/fiap](src/main/java/br/com/fiap) |
 | Código do front-end (React) | [front-end](front-end) |
@@ -36,7 +36,7 @@ O enunciado pede o deploy da API. Mesmo assim, o grupo também publicou o **fron
 
 | Nome | RM |
 |---|---|
-| Ítalo Neto | 572912 |
+| Italo Neto | 572912 |
 | Giovanni Azevedo | 572894 |
 | Tárik Moussa Alma | 571411 |
 | Fabricio Aquiles Sales da Silva | 570985 |
